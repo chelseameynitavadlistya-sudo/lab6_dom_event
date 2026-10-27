@@ -1,0 +1,166 @@
+
+/* LATIHAN 3 - Gaya teks */
+.highlight {
+    color: #173f75;
+    background-color: #e6f1ff;
+    border-left: 4px solid #3478c8;
+    padding: 12px;
+}
+
+.teks-besar {
+    font-size: 1.4rem;
+}
+
+/* LATIHAN 6 - Daftar Tugas */
+#bagianTugas {
+    margin: 20px 0;
+}
+
+#bagianTugas input {
+    padding: 8px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+}
+
+#bagianTugas button {
+    margin: 5px 3px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#tambahTugas {
+    background-color: #3768b3;
+    color: white;
+}
+
+#daftarTugas {
+    padding-left: 25px;
+}
+
+#daftarTugas li {
+    margin-bottom: 10px;
+}
+
+#daftarTugas button {
+    margin-left: 6px;
+    background-color: #e6edf8;
+    color: #244a7c;
+}
+
+#daftarTugas button:hover {
+    opacity: 0.8;
+}
+
+.selesai span {
+    text-decoration: line-through;
+    color: #687386;
+}
+
+/* MINI PROJECT - Form Pendaftaran Workshop */
+#workshop {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #f4f7fc;
+    border: 1px solid #dce5f2;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+#workshop h2 {
+    color: #244a7c;
+    margin-bottom: 12px;
+}
+
+#workshop p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+#formWorkshop label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #34445c;
+}
+
+#formWorkshop input,
+#formWorkshop select {
+    display: block;
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: white;
+}
+
+#formWorkshop input:focus,
+#formWorkshop select:focus {
+    outline: 2px solid #9fc5ff;
+    border-color: #477fca;
+}
+
+#formWorkshop small {
+    display: block;
+    margin-top: 5px;
+    color: #64748b;
+}
+
+#formWorkshop button {
+    margin-top: 18px;
+    margin-right: 8px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#formWorkshop button[type="submit"] {
+    background-color: #3768b3;
+    color: white;
+}
+
+#formWorkshop button[type="reset"] {
+    background-color: #e1e7f0;
+    color: #34445c;
+}
+
+#formWorkshop button:hover {
+    opacity: 0.85;
+}
+
+#pesanWorkshop {
+    font-weight: bold;
+    color: #244a7c;
+    overflow-wrap: anywhere;
+}
+
+#ringkasanWorkshop {
+    padding: 10px;
+    background-color: white;
+    border-radius: 7px;
+    overflow-wrap: anywhere;
+}
+
+/* Tampilan untuk layar kecil */
+@media (max-width: 600px) {
+    #workshop {
+        margin: 20px 10px;
+        padding: 18px;
+    }
+
+    #formWorkshop button {
+        margin-right: 4px;
+    }
+}
+
+/* Eksperimen Mandiri 4 */
+.sembunyi {
+    display: none;
+}
